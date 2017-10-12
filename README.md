@@ -2,7 +2,7 @@
 
 Purges duplicate CSS rules. Based on [css-purge](https://www.npmjs.org/package/css-purge)
 
-## Example
+## Basic
     var gulp = require('gulp'),
         sass = require('gulp-ruby-sass'),
         purge = require('gulp-css-purge'),
@@ -16,9 +16,7 @@ Purges duplicate CSS rules. Based on [css-purge](https://www.npmjs.org/package/c
         .pipe(gulp.dest('./public'));
     })
 
-Pass in options like so:
-
-## Example
+## Pass in options
     var gulp = require('gulp'),
         sass = require('gulp-ruby-sass'),
         purge = require('gulp-css-purge'),
